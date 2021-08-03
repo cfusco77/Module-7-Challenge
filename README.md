@@ -14,7 +14,7 @@ For our initial analysis we created 4 tables.
 We created a table that holds all the titles of current employees who were born between January 1, 1952 and December 31, 1955. Because some employees may have multiple titles in the database—for example, due to promotions—we needed to use the DISTINCT ON statement to create a table that contains the most recent title of each employee.
 
 #### Table 2: unique_titles 
-Using the DISTINCT function we filtered Table 1 for only an employees most recent title.
+Using the DISTINCT ON function we filtered Table 1 for only an employees most recent title.
 
 #### Table 3: retiring_tables 
 Next we retrieved the number of employees (count) by their most recent job title who are about to retire. 
@@ -24,4 +24,8 @@ Lastly we created a mentorship-eligibility table that holds the current employee
 
 ## Results 
 What we found is that Pewlett Hackard does face an impending "silver tsunami" which they should begin planning for. 
+
+![retiring_titles](https://github.com/cfusco77/Pewlett_Hackard_Retirement_Analysis/blob/main/Data/retiring_titles%20.png) 
+
 ## Summary 
+Pewlett Hackard should immediately roll out their mentorship program in hopes that more seasoned employees could prime their fellow employees for advancement into leadership. This will allow current employees to take the place of those who are retiring. Pewlett Hackard will have an easier time filing entry level and junior roles with new hires rather than trying to hire from outside the originization for leadership and senior positions. 
